@@ -2,7 +2,7 @@ import maya.cmds as cmds
 
 # Creates a single building outline with a given position and size 
 def create_building(name="building", width=4, height=8, depth=4, position=(0, 0, 0)):
-     """Create a simple building from a cube, placed on the ground plane.
+    """Create a simple building from a cube, placed on the ground plane.
 
     The building is a single scaled cube whose base sits at ground level
     (y = 0) at the given position.
@@ -72,6 +72,7 @@ create_tree(position=(5, 0, -12))
 create_tree(position=(-4, 0, -6))
 create_tree(position=(4, 0, 4))
 create_tree(position=(8, 0, 0), trunk_height=3.5, canopy_radius=1.8)
+
 
 # Fence creation
 def create_fence(length=10, height=1.5, post_count=6, position=(0, 0, 0)):
