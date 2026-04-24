@@ -1,5 +1,4 @@
 import maya.cmds as cmds
-
 # Creates a single building outline with a given position and size 
 def create_building(name="building", width=4, height=8, depth=4, position=(0, 0, 0)):
     """Create a simple building from a cube, placed on the ground plane.
